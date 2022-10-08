@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("/proyectos")
 @CrossOrigin(origins = "https://portfolio-daniela-tonello.web.app")
+//@CrossOrigin(origins = "*")
 @RestController
 public class ProyectosController {
     
